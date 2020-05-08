@@ -14,7 +14,6 @@ return 2.
 """
 
 #Solution
-
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         a=collections.Counter(s)
